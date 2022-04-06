@@ -115,8 +115,6 @@ class Nsfw(Core):
         """Sends some bbw images."""
 
         await self._send_msg(ctx, _("bbw"), sub.BBW)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -126,7 +124,6 @@ class Nsfw(Core):
         """Sends some bdsm from random subreddits."""
 
         await self._send_msg(ctx, _("bdsm"), sub.BDSM)
-        
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -136,8 +133,6 @@ class Nsfw(Core):
         """Sends some blackcock images from random subreddits."""
 
         await self._send_msg(ctx, _("black cock"), sub.BLACKCOCK)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -201,8 +196,6 @@ class Nsfw(Core):
         """Sends some deepthroat images from random subreddits."""
 
         await self._send_msg(ctx, _("deepthroat"), sub.DEEPTHROAT)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -221,8 +214,6 @@ class Nsfw(Core):
         """Sends some double penetration images/gifs from random subreddits."""
 
         await self._send_msg(ctx, _("double penetration"), sub.DOUBLE_P)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -241,8 +232,6 @@ class Nsfw(Core):
         """Sends some facials images from random subreddits."""
 
         await self._send_msg(ctx, _("facials"), sub.FACIALS)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -288,8 +277,6 @@ class Nsfw(Core):
         """Sends some groups nudes from random subreddits."""
 
         await self._send_msg(ctx, "groups nudes", sub.GROUPS)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -384,8 +371,6 @@ class Nsfw(Core):
 
         await self._send_msg(ctx, _("red head"), sub.REDHEADS)
 
-    """
-    
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
@@ -394,8 +379,6 @@ class Nsfw(Core):
         """Sends some rule34 images from random subreddits."""
 
         await self._send_msg(ctx, _("rule34"), sub.RULE_34)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -414,8 +397,6 @@ class Nsfw(Core):
         """Sends some thighs images from random subreddits."""
 
         await self._send_msg(ctx, _("thigh"), sub.THIGHS)
-        
-    """
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -425,7 +406,6 @@ class Nsfw(Core):
         """Sends some threesome images."""
 
         await self._send_msg(ctx, _("threesome"), sub.THREESOME)
-        
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
@@ -453,4 +433,3 @@ class Nsfw(Core):
         """Sends some yiff images from random subreddits."""
 
         await self._send_msg(ctx, _("yiff"), sub.YIFF)
-    """
