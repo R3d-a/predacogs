@@ -209,7 +209,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["cock"])
     async def dick(self, ctx: commands.Context):
-        """Sends some dicks images from random subreddits."""
+        "Sends some dicks images from random subreddits."
 
         await self._send_msg(ctx, _("dick"), sub.DICK)
 
@@ -218,7 +218,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["doublep"])
     async def doublepenetration(self, ctx: commands.Context):
-        """Sends some double penetration images/gifs from random subreddits."""
+        "Sends some double penetration images/gifs from random subreddits."
 
         await self._send_msg(ctx, _("double penetration"), sub.DOUBLE_P)
         
@@ -249,7 +249,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["feets", "feetish"])
     async def feet(self, ctx: commands.Context):
-        """Sends some feet images from random subreddits."""
+        "Sends some feet images from random subreddits."
 
         await self._send_msg(ctx, _("feets"), sub.FEET)
 
@@ -258,7 +258,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command()
     async def femdom(self, ctx: commands.Context):
-        """Sends some femdom images from random subreddits."""
+        "Sends some femdom images from random subreddits."
 
         await self._send_msg(ctx, _("femdom"), sub.FEMDOM)
 
@@ -267,7 +267,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["futanari"])
     async def futa(self, ctx: commands.Context):
-        """Sends some futa images from random subreddits."""
+        "Sends some futa images from random subreddits."
 
         await self._send_msg(ctx, _("futa"), sub.FUTA)
 
@@ -276,7 +276,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["gayporn"])
     async def gay(self, ctx: commands.Context):
-        """Sends some gay porn from random subreddits."""
+        "Sends some gay porn from random subreddits."
 
         await self._send_msg(ctx, _("gay porn"), sub.GAY_P)
 
@@ -285,7 +285,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["groups", "nudegroup", "nudegroups"])
     async def group(self, ctx: commands.Context):
-        """Sends some groups nudes from random subreddits."""
+        "Sends some groups nudes from random subreddits."
 
         await self._send_msg(ctx, "groups nudes", sub.GROUPS)
         
@@ -391,7 +391,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["r34"])
     async def rule34(self, ctx: commands.Context):
-        """Sends some rule34 images from random subreddits."""
+        "Sends some rule34 images from random subreddits."
 
         await self._send_msg(ctx, _("rule34"), sub.RULE_34)
         
@@ -422,7 +422,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["groupsex"])
     async def threesome(self, ctx: commands.Context):
-        """Sends some threesome images."""
+        "Sends some threesome images."
 
         await self._send_msg(ctx, _("threesome"), sub.THREESOME)
         
@@ -432,7 +432,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["trap", "shemale", "shemales"])
     async def trans(self, ctx: commands.Context):
-        """Sends some trans from random subreddits."""
+        "Sends some trans from random subreddits."
 
         await self._send_msg(ctx, _("trans"), sub.TRANS)
 
@@ -441,7 +441,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["wild", "gwild"])
     async def gonewild(self, ctx: commands.Context):
-        """Sends some gonewild images from random subreddits."""
+        "Sends some gonewild images from random subreddits."
 
         await self._send_msg(ctx, _("gonewild"), sub.WILD)
 
@@ -450,7 +450,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["yiffs"])
     async def yiff(self, ctx: commands.Context):
-        """Sends some yiff images from random subreddits."""
+        "Sends some yiff images from random subreddits."
 
         await self._send_msg(ctx, _("yiff"), sub.YIFF)
     """
