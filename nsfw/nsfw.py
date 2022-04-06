@@ -123,7 +123,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["shibari"])
     async def bdsm(self, ctx: commands.Context):
-        """Sends some bdsm from random subreddits."""
+        "Sends some bdsm from random subreddits."
 
         await self._send_msg(ctx, _("bdsm"), sub.BDSM)
         
@@ -133,7 +133,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["blackdick", "bcock", "bdick", "blackcocks", "blackdicks"])
     async def blackcock(self, ctx: commands.Context):
-        """Sends some blackcock images from random subreddits."""
+        "Sends some blackcock images from random subreddits."
 
         await self._send_msg(ctx, _("black cock"), sub.BLACKCOCK)
         
