@@ -1,25 +1,3 @@
-<h1 align="center">Predä Cogs for Red Discord bot</h1>
-
-<p align="center">
-  <a href="https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop">
-    <img src="https://img.shields.io/badge/Red-Discord Bot-red.svg">
-    </a>
-  <a href="https://github.com/Rapptz/discord.py/tree/rewrite">
-    <img src="https://img.shields.io/badge/discord-py-blue.svg">
-    </a>
-  <a href="https://github.com/ambv/black">
-    <img src="https://img.shields.io/badge/code%20style-black-000000.svg">
-    </a>
-  <a href="https://www.codefactor.io/repository/github/predaaa/predacogs">
-    <img src="https://www.codefactor.io/repository/github/predaaa/predacogs/badge" alt="CodeFactor" />
-    </a>
-  <a href="https://www.patreon.com/predaaA">
-    <img src="https://img.shields.io/badge/Follow%20me-Patreon-orange.svg">
-    </a>
-  <a href="https://discord.gg/k6DU655">
-    <img src="https://discordapp.com/api/guilds/337224005901615104/widget.png?style=shield">
-    </a>
-
 </p>
 
 ## Installation
@@ -52,3 +30,22 @@
 <a href="https://github.com/PredaaA/predacogs">
   <img src="https://img.shields.io/badge/PredaCogs-For Red-red.svg?style=popout&logo=Python">
 </a>
+<p align="center">
+  <a href="https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop">
+    <img src="https://img.shields.io/badge/Red-Discord Bot-red.svg">
+    </a>
+  <a href="https://github.com/Rapptz/discord.py/tree/rewrite">
+    <img src="https://img.shields.io/badge/discord-py-blue.svg">
+    </a>
+  <a href="https://github.com/ambv/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg">
+    </a>
+  <a href="https://www.codefactor.io/repository/github/predaaa/predacogs">
+    <img src="https://www.codefactor.io/repository/github/predaaa/predacogs/badge" alt="CodeFactor" />
+    </a>
+  <a href="https://www.patreon.com/predaaA">
+    <img src="https://img.shields.io/badge/Follow%20me-Patreon-orange.svg">
+    </a>
+  <a href="https://discord.gg/k6DU655">
+    <img src="https://discordapp.com/api/guilds/337224005901615104/widget.png?style=shield">
+    </a>
