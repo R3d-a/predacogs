@@ -8,7 +8,7 @@
 
 ```md
 - [p]load downloader
-- [p]repo add RedAmr https://github.com/RedAmr/predacogs
+- [p]repo add R3d-a https://github.com/R3d-a/predacogs
 - [p]cog install RedAmr  <cog_you_want>
 - [p]load <installed_cog>
 ```
